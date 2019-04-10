@@ -1,30 +1,31 @@
 {
-  "name": "moving-things-with-java-script",
+  "name": "js-dom-and-events-acting-on-events",
   "version": "0.1.0",
-  "description": "Practice animating elements on the page with JavaScript",
+  "description": "JavaScript DOM and Events Acting On Events Learn.co",
   "main": "index.js",
   "scripts": {
+    "postinstall": "gem install learn-co",
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/learn-co-curriculum/moving-things-with-java-script.git"
+    "url": "git+ssh://git@github.com/learn-co-curriculum/js-dom-and-events-acting-on-events.git"
   },
   "keywords": [
+    "learn",
+    "flatiron school",
     "javascript",
-    "flatiron",
-    "learn"
+    "events",
+    "DOM",
+    "lab"
   ],
-  "author": "pletcher",
+  "author": "Flatiron School",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/learn-co-curriculum/moving-things-with-java-script/issues"
+    "url": "https://github.com/learn-co-curriculum/js-dom-and-events-acting-on-events/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/moving-things-with-java-script#readme",
+  "homepage": "https://github.com/learn-co-curriculum/js-dom-and-events-acting-on-events#readme",
   "devDependencies": {
-    "expect": "^1.20.1",
-    "jsdom": "^9.2.1",
-    "mocha": "^2.5.3",
-    "mocha-jsdom": "^1.1.0",
-    "mocha-multi": "^0.9.0"
+    "learn-browser": "^0.1.13"
   }
 }
