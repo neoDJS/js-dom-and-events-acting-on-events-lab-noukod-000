@@ -24,5 +24,7 @@ function addNewLiOnClick(){
 }
 
 function clearEmployeeListOnLinkClick(){
-  document.querySelector('ul.employee-list').innerHTML = "";
+  document.querySelector('a').addEventListener('click', function(event){
+    document.querySelector('ul.employee-list').innerHTML = '';
+  });
 }
